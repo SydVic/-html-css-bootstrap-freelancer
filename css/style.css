@@ -58,3 +58,17 @@ div.img-wrapper{
 section.about{
     background-color: #1abc9c;
 }
+
+/* CONTACT ME */
+.brd-b-g{
+    border-bottom: 1px solid grey;
+}
+
+/* FOOTER */
+footer{
+    background-color: #3a546d;
+}
+
+.copyright{
+    background-color: #2c3e50;
+}
