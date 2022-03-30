@@ -164,6 +164,13 @@ div.ms_download {
     border-left: 0;
     border-right: 0;
     border-radius: 0;
+    padding-left: 0;
+    color: var(--text-light-black);
+}
+
+.form-floating > label {
+    padding-left: 0;
+    font-weight: 600;
 }
 
 .ms_form .form-control {
@@ -180,6 +187,7 @@ div.ms_download {
 footer {
     background-color: #3a546d;
     color: white;
+    margin-top: 1.5rem;
 }
 
 ul.ms_social-list {
