@@ -137,6 +137,31 @@ div.ms_img-wrapper {
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+}
+
+/* PORTFOLIO */ /* LAYOVER EFFECT */
+div.ms_layover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(26, 188, 156, .7);
+    display: none;
+}
+
+a.ms_add-work {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: var(--text-white);
+}
+
+div.ms_img-wrapper:hover div.ms_layover {
+    display: block;
 }
 
 /* ABOUT */
@@ -184,7 +209,7 @@ div.ms_download {
     border-color: #1abc9c;
 }
 
-.ms_btn-dwn:hover .btn-outline-light {
+.btn-outline-light:hover {
     color: #1abc9c;
 }
 
@@ -211,6 +236,7 @@ a.ms_start-boot {
 }
 
 a.ms_start-boot:hover {
+    color: #0f8b73;
     text-decoration: underline;
 }
 
