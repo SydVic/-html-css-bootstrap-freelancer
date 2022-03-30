@@ -4,6 +4,9 @@
     --header-height: 80px;
     /* COLORS */
     --text-white: #ffffff;
+    --text-light-black: #2c3e50;
+    --bg-c-white: #ffffff;
+    --bg-c-light-black: #2c3e50;
 }
 
 /* COMMON */
@@ -15,17 +18,40 @@ a {
     text-decoration: none;
 }
 
-.ms_flex {
-    display: flex;
-}
-
-/* .ms_up-case {
-    text-transform: uppercase;
-}
-
-.ms_text-white{
+.ms_txt-w{
     color: var(--text-white);
-} */
+}
+
+.ms_txt-lb{
+    color: var(--text-light-black);
+}
+
+.ms_bg-c-w {
+    background-color: var(--bg-c-white);
+}
+
+.ms_bg-c-lb {
+    background-color: var(--bg-c-light-black);
+}
+
+div.ms_line-star-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+div.ms_line-star-line > i {
+    margin: 0 .5rem;
+}
+
+div.ms_line {
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    border-radius: 4px;
+}
 
 .ms_container {
     width: 65%;
@@ -71,10 +97,24 @@ ul.ms_nav-list > li > a {
 /* JUMBOTRON */
 section.ms_jumbotron {
     background-color: #1abc9c;
+    padding: 1rem 0;
 }
 
-div.ms_jumbotron-img >img {
+div.ms_jumbotron-img > img {
     width: 150px;
+}
+
+div.ms_jumbotron-text {
+    text-transform: uppercase;
+}
+
+div.ms_jumbotron-text > h1 {
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+div.ms_jumbotron-text > p {
+    font-weight: 600;
 }
 
 /* PORTFOLIO */
