@@ -14,24 +14,38 @@
 </head>
 <body>
     <!-- HEADER  -->
-    <header>
+    <header class="flex">
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <div class="header-menu-left">
+                <div class="col-8 col-md-6">
+                    <div class="ms_text-wrapper up-case">
                         start bootstrap
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="header-menu-right text-end">
-                        <div class="burger-menu d-md-none">
-                            <i class="fas fa-bars"></i>
+                <div class="col-4 col-md-6">
+                    <div class="ms_header-menu-right text-end">
+                        <div class="ms_burger-menu d-md-none">
+                            <a href="" class="burger-menu-i">
+                                <i class="fas fa-bars"></i>
+                            </a>
                         </div>
-                        <div class="text-menu d-none d-md-block">
+                        <div class="ms_text-menu d-none d-md-block">
                             <ul>
-                                <li>portfolio</li>
-                                <li>about</li>
-                                <li>contact</li>
+                                <li>
+                                    <a href="">
+                                        portfolio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        about
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        contact
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -44,58 +58,60 @@
     <!-- MAIN -->
     <main>
         <!-- SECTION JUMBOTRON -->
-        <section class="jumbotron">
-            <div class="jubotron-img text-center">
-                immagine
-            </div>
-            <div class="jumbotron-text text-center">
-                <h1>start bootstrap</h1>
-                <div class="line-star-line">
-                    ------ stella ------
+        <section class="ms_jumbotron">
+            <div class="container">
+                <div class="ms_jumbotron-img text-center">
+                    <img src="img/avatar.svg" alt="">
                 </div>
-                <p>graphic artist - web designer - illustrator</p>
+                <div class="ms_jumbotron-text text-center">
+                    <h1>start bootstrap</h1>
+                    <div class="ms_line-star-line">
+                        ------ stella ------
+                    </div>
+                    <p>graphic artist - web designer - illustrator</p>
+                </div>
             </div>
         </section>
         <!-- /SECTION JUMBOTRON -->
 
         <!-- SECTION PORTFOLIO  -->
-        <section class="portfolio">
+        <section class="ms_portfolio">
             <div class="container">
                 <div class="text-center">
-                    <div class="text-wrapper">
+                    <div class="ms_title-wrapper">
                         <h2>portfolio</h2>
-                        <div class="line-star-line">
+                        <div class="ms_line-star-line">
                             ------ stella -----
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row g-3">
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="img-wrapper bg-c-1">
+                            <div class="ms_img-wrapper ms_bg-c-1">
                                 immagine
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="img-wrapper bg-c-2">
+                            <div class="ms_img-wrapper ms_bg-c-2">
                                 immagine
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="img-wrapper bg-c-3">
+                            <div class="ms_img-wrapper ms_bg-c-3">
                                 immagine
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="img-wrapper bg-c-4 ">
+                            <div class="ms_img-wrapper ms_bg-c-4 ">
                                 immagine
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="img-wrapper bg-c-5">
+                            <div class="ms_img-wrapper ms_bg-c-5">
                                 immagine
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="img-wrapper bg-c-6">
+                            <div class="ms_img-wrapper ms_bg-c-6">
                                 immagine
                             </div>
                         </div>
@@ -106,24 +122,26 @@
         <!-- /SECTION PORTFOLIO  -->
 
         <!-- SECTION ABOUT -->
-        <section class="about">
+        <section class="ms_about">
             <div class="ms_container text-center">
                 <div class="container-fluid">
-                    <h2>about</h2>
-                    <div class="line-star-line">
-                        ------ stella ------
+                    <div class="ms_title-wrapper">
+                        <h2>about</h2>
+                        <div class="ms_line-star-line">
+                            ------ stella -----
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure quidem inventore quia earum soluta mollitia iste quis magni? Alias est cumque ea, id voluptas aperiam numquam nisi quam amet?</p>
+                            <p>Frrelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                         </div>
                         <div class="col-12 col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure quidem inventore quia earum soluta mollitia iste quis magni? Alias est cumque ea, id voluptas aperiam numquam nisi quam amet?</p>
+                            <p>Whether yuo're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                         </div>
                     </div>
-                    <div class="download">
+                    <div class="ms_download">
                         <a href="">
-                            download
+                            Download
                         </a>
                     </div>
                 </div>
@@ -132,29 +150,31 @@
         <!-- /SECTION ABOUT -->
 
         <!-- SECTION CONTACT  -->
-        <section class="contact-me">
+        <section class="ms_contact-me">
             <div class="ms_container text-center">
                 <div class="container-fluid">
-                    <h2>contact me</h2>
-                    <div class="line-star-line">
-                        ------ stella ------
+                    <div class="ms_title-wrapper">
+                        <h2>contact me</h2>
+                        <div class="ms_line-star-line">
+                            ------ stella -----
+                        </div>
                     </div>
-                    <div class="contacts text-start">
-                        <div class="name brd-b-g">
-                            name
+                    <div class="ms_contacts text-start">
+                        <div class="ms_name ms_brd-b-g">
+                            Name
                         </div>
-                        <div class="email brd-b-g">
-                            email address
+                        <div class="ms_email ms_brd-b-g">
+                            Email Address
                         </div>
-                        <div class="phone brd-b-g">
-                            phone number
+                        <div class="ms_phone ms_brd-b-g">
+                            Phone Number
                         </div>
-                        <div class="message">
-                            message
+                        <div class="ms_message">
+                            Message
                         </div>
-                        <div class="message-send">
+                        <div class="ms_message-send">
                             <a href="">
-                                send
+                                Send
                             </a>
                         </div>
                     </div>
@@ -170,24 +190,48 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <div class="location text-center">
-                        location
+                    <div class="ms_location text-center">
+                       <h4>location</h4>
+                       <p>2215 Jhon Daniel Drive Clark, MO 54243</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="social text-center">
-                        around the web
+                    <div class="ms_social text-center">
+                        <h4>around the web</h4>
+                        <ul class="ms_social-list">
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="about-freelancer text-center">
-                        about freelancer
+                    <div class="ms_about-freelancer text-center">
+                        <h4>about freelancer</h4>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="copyright text-center">
-            copyright
+        <div class="ms_copyright text-center">
+            <p>Copyright &#169; Your Websites 2019</p>
         </div>
     </footer>
     <!-- /FOOTER -->
