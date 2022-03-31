@@ -107,6 +107,13 @@ ul.ms_nav-list > li > a {
 }
 
 /*HEADER */ /* HOVER EFFECT */
+a.ms_burger-menu-i > i:hover {
+    
+    color: var(--c-white);
+    border: 1px solid var(--c-light-green);
+    
+}
+
 div.ms_header-text-wrapper:hover a {
     color: var(--c-light-green);
 }
