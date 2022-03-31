@@ -274,3 +274,12 @@ ul.ms_social-list > li > a {
     vertical-align: middle;
     line-height: var(--footer-height);
 }
+
+/* FOOTER */ /* HOVER EFFECT */
+ul.ms_social-list > li:hover a {
+    color: #0f8b73;
+}
+
+ul.ms_social-list > li:hover {
+    border-color: #0f8b73;
+}
