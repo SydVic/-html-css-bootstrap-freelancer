@@ -89,7 +89,7 @@ div.ms_header-text-wrapper > a{
 a.ms_burger-menu-i > i {
     font-size: 1.2rem;
     color: #888888;
-    border: 1px solid #ffffff;
+    border: 1px solid var(--c-white);
     border-radius: 3px;
     padding: .3rem .8rem;
 }
@@ -218,6 +218,10 @@ div.ms_download {
     box-shadow: none;
 }
 
+textarea.form-control {
+    min-height: 150px;
+}
+
 .ms_btn-dwn {
     color: #ffffff;
     background-color: var(--c-light-green);
@@ -287,6 +291,7 @@ ul.ms_social-list > li > a {
 /* FOOTER */ /* HOVER EFFECT */
 ul.ms_social-list > li:hover a {
     color: var(--c-light-green);
+    border-color: var(--c-light-green);
 }
 
 ul.ms_social-list > li:hover {
