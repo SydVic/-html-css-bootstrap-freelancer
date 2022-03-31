@@ -105,6 +105,15 @@ ul.ms_nav-list > li > a {
     font-weight: bold;
 }
 
+/*HEADER */ /* HOVER EFFECT */
+div.ms_header-text-wrapper:hover a {
+    color: #1abc9c;
+}
+
+ul.ms_nav-list > li:hover a {
+    color: #1abc9c;
+}
+
 /* JUMBOTRON */
 section.ms_jumbotron {
     background-color: #1abc9c;
