@@ -4,6 +4,7 @@
     --header-height: 80px;
     /* COLORS */
     --c-white: #ffffff;
+    --c-light-green: #1abc9c;
     --text-white: #ffffff;
     --text-light-black: #2c3e50;
     --bg-c-white: #ffffff;
@@ -107,16 +108,16 @@ ul.ms_nav-list > li > a {
 
 /*HEADER */ /* HOVER EFFECT */
 div.ms_header-text-wrapper:hover a {
-    color: #1abc9c;
+    color: var(--c-light-green);
 }
 
 ul.ms_nav-list > li:hover a {
-    color: #1abc9c;
+    color: var(--c-light-green);
 }
 
 /* JUMBOTRON */
 section.ms_jumbotron {
-    background-color: #1abc9c;
+    background-color: var(--c-light-green);
     padding: 1rem 0;
 }
 
@@ -175,7 +176,7 @@ div.ms_img-wrapper:hover div.ms_layover {
 
 /* ABOUT */
 section.ms_about {
-    background-color: #1abc9c;
+    background-color: var(--c-light-green);
     padding-bottom: 1rem;
 }
 
@@ -189,7 +190,7 @@ div.ms_download {
 
 /* CONTACT ME */
 .ms_brd-b-g {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #808080;
 }
 
 /* FORM */
@@ -214,12 +215,12 @@ div.ms_download {
 
 .ms_btn-dwn {
     color: #ffffff;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
+    background-color: var(--c-light-green);
+    border-color: var(--c-light-green);
 }
 
 .btn-outline-light:hover {
-    color: #1abc9c;
+    color: var(--c-light-green);
 }
 
 /* FOOTER */
@@ -241,7 +242,7 @@ footer p {
 }
 
 a.ms_start-boot {
-    color: #1abc9c;
+    color: var(--c-light-green);
 }
 
 a.ms_start-boot:hover {
@@ -277,9 +278,9 @@ ul.ms_social-list > li > a {
 
 /* FOOTER */ /* HOVER EFFECT */
 ul.ms_social-list > li:hover a {
-    color: #0f8b73;
+    color: var(--c-light-green);
 }
 
 ul.ms_social-list > li:hover {
-    border-color: #0f8b73;
+    border-color: var(--c-light-green);
 }
